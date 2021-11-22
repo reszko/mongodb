@@ -1,0 +1,215 @@
+CRITICAL - 2021-11-22 16:00:24 --> Return value of App\Models\UsersModel::getAll() must be of the type array, object returned
+#0 C:\xampp\htdocs\mongodb\app\Controllers\Home.php(14): App\Models\UsersModel->getAll()
+#1 C:\xampp\htdocs\mongodb\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#2 C:\xampp\htdocs\mongodb\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\mongodb\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\mongodb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\mongodb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-11-22 16:05:54 --> Class 'MongoId' not found
+#0 C:\xampp\htdocs\mongodb\app\Controllers\Home.php(14): App\Models\UsersModel->findById('619ac7e01868000...')
+#1 C:\xampp\htdocs\mongodb\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#2 C:\xampp\htdocs\mongodb\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\mongodb\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\mongodb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\mongodb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-11-22 16:19:14 --> syntax error, unexpected ','
+#0 C:\xampp\htdocs\mongodb\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\mongodb\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp\htdocs\mongodb\vendor\codeigniter4\framework\system\CodeIgniter.php(789): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\mongodb\vendor\codeigniter4\framework\system\CodeIgniter.php(397): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\mongodb\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\mongodb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\mongodb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2021-11-22 16:19:22 --> A non well formed numeric value encountered
+#0 C:\xampp\htdocs\mongodb\app\Models\UsersModel.php(58): CodeIgniter\Debug\Exceptions->errorHandler(8, 'A non well form...', 'C:\\xampp\\htdocs...', 58, Array)
+#1 C:\xampp\htdocs\mongodb\app\Controllers\Home.php(17): App\Models\UsersModel->update('619c1601666d000...', Array)
+#2 C:\xampp\htdocs\mongodb\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#3 C:\xampp\htdocs\mongodb\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\mongodb\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\mongodb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\mongodb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-11-22 16:20:27 --> A non well formed numeric value encountered
+#0 C:\xampp\htdocs\mongodb\app\Models\UsersModel.php(58): CodeIgniter\Debug\Exceptions->errorHandler(8, 'A non well form...', 'C:\\xampp\\htdocs...', 58, Array)
+#1 C:\xampp\htdocs\mongodb\app\Controllers\Home.php(17): App\Models\UsersModel->update('619c1601666d000...', Array)
+#2 C:\xampp\htdocs\mongodb\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#3 C:\xampp\htdocs\mongodb\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\mongodb\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\mongodb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\mongodb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-11-22 16:27:29 --> syntax error, unexpected 'echo' (T_ECHO), expecting ';'
+#0 C:\xampp\htdocs\mongodb\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\mongodb\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp\htdocs\mongodb\vendor\codeigniter4\framework\system\CodeIgniter.php(789): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\mongodb\vendor\codeigniter4\framework\system\CodeIgniter.php(397): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\mongodb\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\mongodb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\mongodb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2021-11-22 16:31:09 --> Undefined variable: users
+#0 C:\xampp\htdocs\mongodb\app\Views\home.php(30): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 30, Array)
+#1 C:\xampp\htdocs\mongodb\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\mongodb\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\mongodb\vendor\codeigniter4\framework\system\Common.php(1097): CodeIgniter\View\View->render('home', Array, true)
+#4 C:\xampp\htdocs\mongodb\app\Controllers\Home.php(21): view('home')
+#5 C:\xampp\htdocs\mongodb\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\mongodb\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\mongodb\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\mongodb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\mongodb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-11-22 16:37:55 --> Call to undefined function App\Controllers\vie()
+#0 C:\xampp\htdocs\mongodb\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\User->create()
+#1 C:\xampp\htdocs\mongodb\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#2 C:\xampp\htdocs\mongodb\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\mongodb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\mongodb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-11-22 16:38:54 --> Call to undefined function form_open()
+#0 C:\xampp\htdocs\mongodb\vendor\codeigniter4\framework\system\View\View.php(214): include()
+#1 C:\xampp\htdocs\mongodb\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\mongodb\vendor\codeigniter4\framework\system\Common.php(1097): CodeIgniter\View\View->render('form', Array, true)
+#3 C:\xampp\htdocs\mongodb\app\Controllers\User.php(16): view('form')
+#4 C:\xampp\htdocs\mongodb\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\User->create()
+#5 C:\xampp\htdocs\mongodb\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#6 C:\xampp\htdocs\mongodb\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\mongodb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\mongodb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2021-11-22 16:44:37 --> Undefined variable: id
+#0 C:\xampp\htdocs\mongodb\app\Controllers\User.php(30): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 30, Array)
+#1 C:\xampp\htdocs\mongodb\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\User->store()
+#2 C:\xampp\htdocs\mongodb\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 C:\xampp\htdocs\mongodb\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\mongodb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\mongodb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-11-22 16:44:49 --> Undefined index: username
+#0 C:\xampp\htdocs\mongodb\app\Models\UserModel.php(46): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 46, Array)
+#1 C:\xampp\htdocs\mongodb\app\Controllers\User.php(30): App\Models\UserModel->insert(Array)
+#2 C:\xampp\htdocs\mongodb\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\User->store()
+#3 C:\xampp\htdocs\mongodb\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#4 C:\xampp\htdocs\mongodb\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\mongodb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\mongodb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-11-22 16:45:26 --> Call to undefined method MongoDB\InsertOneResult::getModifiedCount()
+#0 C:\xampp\htdocs\mongodb\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\User->store()
+#1 C:\xampp\htdocs\mongodb\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#2 C:\xampp\htdocs\mongodb\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\mongodb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\mongodb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-11-22 16:45:42 --> Object of class MongoDB\BSON\ObjectId could not be converted to int
+#0 C:\xampp\htdocs\mongodb\app\Controllers\User.php(30): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Object of class...', 'C:\\xampp\\htdocs...', 30, Array)
+#1 C:\xampp\htdocs\mongodb\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\User->store()
+#2 C:\xampp\htdocs\mongodb\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 C:\xampp\htdocs\mongodb\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\mongodb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\mongodb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-11-22 16:45:54 --> Object of class MongoDB\BSON\ObjectId could not be converted to int
+#0 C:\xampp\htdocs\mongodb\app\Controllers\User.php(30): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Object of class...', 'C:\\xampp\\htdocs...', 30, Array)
+#1 C:\xampp\htdocs\mongodb\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\User->store()
+#2 C:\xampp\htdocs\mongodb\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 C:\xampp\htdocs\mongodb\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\mongodb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\mongodb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-11-22 16:48:46 --> Object of class MongoDB\Model\BSONDocument could not be converted to string
+#0 C:\xampp\htdocs\mongodb\app\Views\form.php(32): CodeIgniter\Debug\Exceptions->errorHandler(4096, 'Object of class...', 'C:\\xampp\\htdocs...', 32, Array)
+#1 C:\xampp\htdocs\mongodb\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\mongodb\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\mongodb\vendor\codeigniter4\framework\system\Common.php(1097): CodeIgniter\View\View->render('form', Array, true)
+#4 C:\xampp\htdocs\mongodb\app\Controllers\User.php(46): view('form', Array)
+#5 C:\xampp\htdocs\mongodb\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\User->edit('619c1e0b9977000...')
+#6 C:\xampp\htdocs\mongodb\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 C:\xampp\htdocs\mongodb\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\mongodb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\mongodb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-11-22 16:50:39 --> Undefined index: oid
+#0 C:\xampp\htdocs\mongodb\app\Controllers\User.php(45): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 45, Array)
+#1 C:\xampp\htdocs\mongodb\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\User->edit('619c1e0b9977000...')
+#2 C:\xampp\htdocs\mongodb\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 C:\xampp\htdocs\mongodb\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\mongodb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\mongodb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-11-22 16:52:14 --> Cannot use isset() on the result of an expression (you can use "null !== expression" instead)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-22 16:52:20 --> syntax error, unexpected ')'
+#0 C:\xampp\htdocs\mongodb\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\mongodb\vendor\codeigniter4\framework\system\Common.php(1097): CodeIgniter\View\View->render('form', Array, true)
+#2 C:\xampp\htdocs\mongodb\app\Controllers\User.php(46): view('form', Array)
+#3 C:\xampp\htdocs\mongodb\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\User->edit('619ac7e01868000...')
+#4 C:\xampp\htdocs\mongodb\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#5 C:\xampp\htdocs\mongodb\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\mongodb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\mongodb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-11-22 17:00:25 --> count(): Parameter must be an array or an object that implements Countable
+#0 C:\xampp\htdocs\mongodb\app\Views\home.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parame...', 'C:\\xampp\\htdocs...', 40, Array)
+#1 C:\xampp\htdocs\mongodb\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\mongodb\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\mongodb\vendor\codeigniter4\framework\system\Common.php(1097): CodeIgniter\View\View->render('home', Array, true)
+#4 C:\xampp\htdocs\mongodb\app\Controllers\Home.php(19): view('home', Array)
+#5 C:\xampp\htdocs\mongodb\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\mongodb\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\mongodb\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\mongodb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\mongodb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-11-22 17:01:05 --> count(): Parameter must be an array or an object that implements Countable
+#0 C:\xampp\htdocs\mongodb\app\Views\home.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parame...', 'C:\\xampp\\htdocs...', 40, Array)
+#1 C:\xampp\htdocs\mongodb\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\mongodb\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\mongodb\vendor\codeigniter4\framework\system\Common.php(1097): CodeIgniter\View\View->render('home', Array, true)
+#4 C:\xampp\htdocs\mongodb\app\Controllers\Home.php(19): view('home', Array)
+#5 C:\xampp\htdocs\mongodb\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\mongodb\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\mongodb\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\mongodb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\mongodb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-11-22 17:01:49 --> Cursors cannot rewind after starting iteration
+#0 C:\xampp\htdocs\mongodb\app\Views\home.php(41): MongoDB\Driver\Cursor->rewind()
+#1 C:\xampp\htdocs\mongodb\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\mongodb\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\mongodb\vendor\codeigniter4\framework\system\Common.php(1097): CodeIgniter\View\View->render('home', Array, true)
+#4 C:\xampp\htdocs\mongodb\app\Controllers\Home.php(19): view('home', Array)
+#5 C:\xampp\htdocs\mongodb\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\mongodb\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\mongodb\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\mongodb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\mongodb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-11-22 17:03:28 --> Array to string conversion
+#0 C:\xampp\htdocs\mongodb\app\Views\home.php(28): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\xampp\\htdocs...', 28, Array)
+#1 C:\xampp\htdocs\mongodb\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\mongodb\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\mongodb\vendor\codeigniter4\framework\system\Common.php(1097): CodeIgniter\View\View->render('home', Array, true)
+#4 C:\xampp\htdocs\mongodb\app\Controllers\Home.php(20): view('home', Array)
+#5 C:\xampp\htdocs\mongodb\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\mongodb\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\mongodb\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\mongodb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\mongodb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-11-22 17:35:32 --> Return value of App\Models\UserModel::findById() must be an object, null returned
+#0 C:\xampp\htdocs\mongodb\app\Controllers\User.php(46): App\Models\UserModel->findById('619c2761426c000...')
+#1 C:\xampp\htdocs\mongodb\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\User->edit('619c2761426c000...')
+#2 C:\xampp\htdocs\mongodb\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 C:\xampp\htdocs\mongodb\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\mongodb\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\mongodb\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
