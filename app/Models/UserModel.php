@@ -32,8 +32,7 @@ class UserModel
     }
 
     /**
-     * Salva os dados.
-     * Se o ID for informado, atualiza, se não, insere
+     * Insere um registro
      *
      * @param array $dados
      * @return void
